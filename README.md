@@ -58,7 +58,7 @@ npm install
 - Inside the `data/` folder, you will find a `database.sql` file.
 - Open the file and run it in your PostgreSQL instance to create the required tables and insert the capitals data.
 ```bash
-psql -U username -h localhost -d world -f data/capitals.sql
+psql -U postgres -h localhost -d world -f data/capitals.sql
 ```
 
 ### 5. Run the application:  
